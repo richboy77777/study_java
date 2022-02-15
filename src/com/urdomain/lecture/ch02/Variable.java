@@ -7,8 +7,9 @@ public class Variable {
 		//변수 명명범
 		//첫글자 소문자 그리고 다음 문자열 부터는 대문자
 		//모든 변수명은 붙여서 사용
-		String fullName = "Sangwon Lee";
-		String name = "Sangwon";		
+		String fullName = "Sangwon Lee"; //카멜표기법  // 변수, 함수
+		String full_name = "Sangwon";	//스네이크법		
+		String FullName = "Sangwon";	//파스칼 // 클래스, 상수		
 		
 		
 		//대소문자 구분함
@@ -46,7 +47,8 @@ public class Variable {
 //		실수형은 0.0
 //		문자형은 '' 또는 ""
 		
-		boolean defaultNy = false; //true
+		boolean defaultNy = true; //true
+		boolean delNy = false; //true
 		byte aa = 0;
 		short bb = 0;
 		int cc = 0;
