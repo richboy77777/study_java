@@ -24,7 +24,7 @@ public class RemoteControlExample {
 		
 		remoteControl.turnOn();
 		remoteControl.turnOff();
-		
+		remoteControl.setMute(false);
 
 	}
 
