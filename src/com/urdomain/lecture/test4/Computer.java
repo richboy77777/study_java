@@ -7,7 +7,7 @@ public class Computer extends Calculator {
 
 		System.out.println("Computer 객체의 원면적 구하는 프로그램 실행");
 
-		return 3.14159265358979323846 * r * r;
+		return Constants.PAI_2 * r * r;		//Constants 함수 사용방법임 직접 숫자대입 하면 안됨
 	}
 
 }
