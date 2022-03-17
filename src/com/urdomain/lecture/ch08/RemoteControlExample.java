@@ -11,6 +11,8 @@ public class RemoteControlExample {
 		//audio.turnOff();
 		television.turnOn();
 		television.turnOff();
+		television.setVolume(-10);
+		television.setMute(false);
 		
 		System.out.println();
 //		인터페이스를 구현한 클래스는 위에 처럼 일반클래스 객체 만들듯이 하면 안된다.
@@ -25,7 +27,7 @@ public class RemoteControlExample {
 		remoteControl.turnOn();
 		remoteControl.turnOff();
 		remoteControl.setMute(false);
-
+		
 	}
 
 }
